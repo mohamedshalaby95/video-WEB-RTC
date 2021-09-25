@@ -13,8 +13,8 @@ joinButton.onclick=()=>{
 let peers={}
 
 let myPeer = new Peer(undefined, {
-    host: '/',
-    port: '3001'
+    // host: '/',
+    // port: '3001'
   })
   const myVideo = document.createElement('video')
  myVideo.muted = true
